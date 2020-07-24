@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>reto 6</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="warning.css">
+        <link rel="stylesheet" href="products.css">
+        <link rel="stylesheet" href="advice.css">
+        <link rel="stylesheet" href="cart.css">
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <div class="header__nav--left">
+                    <div class="ico-burguer">
+                        <a onclick="toogleMenu()" href="#"><img src="http://monsterbranding.com.mx/images/menu.png" alt="menu"> </a>
+                        <ul id="menuEscondido">
+                            <li><a href="#">inicio</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>     
+                        </ul>
+                    </div>
+                    <h2>My pictures</h2>
+                </div>
+                <div class="header__nav--right">
+                    <ul>
+                        
+                        <li><a onclick="searchForm()" href="#"><img src="http://monsterbranding.com.mx/images/search.png" alt="search"></a>
+                            
+                        </li>
+                        <li><a href="#"><img src="http://monsterbranding.com.mx/images/menu-vertical.png" alt="secondary-menu"></a></li>
+                    </ul>
+                </div>
+            </nav> 
+        <div class="search" id="search">
+                <input type="search" placeholder="buscar..">
+                
+        </div>
+        </header>
+        
+        <section class="cart">
+            <h2 class="cart__title">4 items in your cart</h2>
+            <!-- card -->
+            <div class="cart__card">
+                <div class="cart__card--stock">
+                   <div>
+                        <img src="https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?cs=srgb&dl=close-up-photo-of-pink-lipstick-and-blush-on-2533266.jpg&fm=jpg" alt="imagen producto">
+                    </div>
+                    <div class="cart__card--stock-info">
+                        <h2>Lipstick</h2>
+                        <p>in stock</p>    
+                    </div> 
+                </div>
+                <div class="cart__card--price">
+                    <p>1.50</p>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="cart__card">
+                <div class="cart__card--stock">
+                   <div>
+                        <img src="https://images.pexels.com/photos/1279107/pexels-photo-1279107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imagen producto">
+                    </div>
+                    <div class="cart__card--stock-info">
+                        <h2>Amazon Echo</h2>
+                        <p>in stock</p>    
+                    </div> 
+                </div>
+                <div class="cart__card--price">
+                    <p>20.00</p>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="cart__card">
+                <div class="cart__card--stock">
+                   <div>
+                        <img src="https://images.pexels.com/photos/2633986/pexels-photo-2633986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imagen producto">
+                    </div>
+                    <div class="cart__card--stock-info">
+                        <h2>Cosmetics</h2>
+                        <p>only left one in stock</p>    
+                    </div> 
+                </div>
+                <div class="cart__card--price">
+                    <p>2.50</p>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="cart__card">
+                <div class="cart__card--stock">
+                   <div>
+                        <img src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imagen producto">
+                    </div>
+                    <div class="cart__card--stock-info">
+                        <h2>Camera</h2>
+                        <p>in stock</p>    
+                    </div> 
+                </div>
+                <div class="cart__card--price">
+                    <p>200.00</p>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="cart__card">
+                <div class="cart__card--stock">
+                   <div>
+                        <img src="https://images.pexels.com/photos/4065864/pexels-photo-4065864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="imagen producto">
+                    </div>
+                    <div class="cart__card--stock-info">
+                        <h2>Laptop</h2>
+                        <p>in stock</p>    
+                    </div> 
+                </div>
+                <div class="cart__card--price">
+                    <p>1,000.00</p>
+                </div>
+            </div>
+        </section>
+        <div class="separator"></div>
+        <section class="total-acount">
+                <div class="total-acount__total">
+                    <h2>TOTAL</h2>
+                    <p>
+                        Subtotal<br>
+                        Shipping<br>
+                        Tax
+                    </p>
+                </div>
+                <div class="total-acount__total">
+                    <h2>1,223.00</h2>
+                    <p>
+                        36.00<br>
+                        2.00<br>
+                        200.00
+                        
+                    </p>
+                </div>
+        </section>  
+    <script src="menu.js"></script>
+    </body>
+</html>
