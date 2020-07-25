@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.back {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+i {
+    cursor: pointer;
+}
+
+.header {
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.header__top {
+    background-color: #4c00d5;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__top i {
+    color: #9E4BFF;
+    margin-right: 10px;
+}
+
+.header__options {
+    background-color: #6200EE;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__options h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+.header__options i {
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+.header__options_left {
+    display: flex;
+    margin: 10px;
+}
+
+.content {
+    background-color: #ffffff;
+    height: 700px;
+}
+
+.content__cart-product-list {
+    margin-bottom: 40px;
+}
+
+.content__cart-items {
+    text-align: left;
+    padding: 30px 20px;
+}
+
+.cart-product-list__product {
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+
+.product__information {
+    display: flex;
+}
+
+.product__information img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product__description {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.product__description h3 {
+    font-weight: 400;
+}
+
+.product__description p {
+    margin-top: 5px;
+}
+
+.product__price {
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.txt__principal {
+    color: black;
+}
+
+.txt__secondary {
+    color: #919090;
+}
+
+hr {
+    margin: 0 20px;
+    color: #cfcaca;
+}
+
+.ammount__content {
+    margin: 40px 20px;
+}
+
+.ammount__total,
+.ammount__subtotal,
+.ammount__shipping,
+.ammount__tax {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    font-size: 30px;
+}
+
+.ammount__total {
+    margin: 20px 10px;
+}
+
+.ammount__subtotal,
+.ammount__shipping,
+.ammount__tax {
+    margin: 10px 10px;
+}
