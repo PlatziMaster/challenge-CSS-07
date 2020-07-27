@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+: root {
+    --margen_bajo: 20px;
+}
+
+.golbal_container {
+    border: 1px solid #e4e4e4;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4b00d6;
+    height: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.barra img {
+    height: 10px;
+    margin: 5px;
+}
+.nav {
+    display: flex;
+    max-width: 500px;
+    justify-content: space-between;
+    background-color: #6200ee;
+    height: 100px;
+    box-shadow: 0px 1px 10px;
+    margin: 0 auto;
+}
+.nav p {
+    font-size: 30px;
+}
+.navegador-L {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    color: white;
+}   
+.navegador-R {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.total_items {
+    margin: 30px 20px;
+}
+.lista__items {
+    display: block;
+    border-bottom: 1px solid #e4e4e4;
+}
+.item__container {
+    display: flex;
+    margin-bottom: 30px;
+}
+.item__container img {
+    margin-left: 20px;
+}
+.item__NP {
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+.item__name {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.item__stock {
+    margin-left: 10px;
+    color: #808080;
+}
+.item__price {
+    /* width: 200px; */
+    margin-left: 290px;
+    align-items: center;
+}
+/* ------------- */
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+.total__left {
+    max-width: 250px;
+    margin: 20px 30px;
+}
+.total__left h1 {
+    margin-bottom: 30px;
+    color: #8e8e8e;
+}
+.total__left p {
+    margin-bottom: 20px;
+}
+/* -------- */
+.total__right {
+    display: flex;
+    max-width: 250px;
+    margin: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.total__right h1 {
+    margin-bottom: 30px;
+}
+.total__right p {
+    margin-bottom: 20px;
+    color: #8e8e8e;
+}
