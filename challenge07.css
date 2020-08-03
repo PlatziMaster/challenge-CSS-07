@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./icomoon/fonts/icomoon.eot?paxfu2');
+    src:  url('./icomoon/fonts/icomoon.eot?paxfu2#iefix') format('embedded-opentype'),
+      url('./icomoon/fonts/icomoon.ttf?paxfu2') format('truetype'),
+      url('./icomoon/fonts/icomoon.woff?paxfu2') format('woff'),
+      url('./icomoon/fonts/icomoon.svg?paxfu2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-triangle-down:before {
+    content: "\e902";
+  }
+  .icon-dots-horizontal-triple:before {
+    content: "\e900";
+  }
+  .icon-circle:before {
+    content: "\e901";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-stop2:before {
+    content: "\ea1e";
+  }
+body {
+    font-family: 'Raleway', serif;
+}
+.header {
+    background-color: #4d089a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.header__cabecera{
+    background-color: darkblue;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: end;
+    margin: 3px 0px;
+}
+.header__cabecera a{
+    color: white;
+    margin: 2px;
+    display: inline-block;
+    opacity: .6;
+    text-decoration: none;
+}
+.header__menutitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.header__menutitle--1{
+    color: #ffffff;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header__menutitle--2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+}
+.header__menutitle--3 a {
+    margin: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.cart_main {
+    padding: 10px;
+}
+.container .c1{
+    padding-right: 10px;
+    width: 30vw;
+}
+.container .c2{
+    font-size: auto;
+    text-align: left;
+    width: 60vw;
+}
+.container .c3{
+    padding-right: 10px;
+    text-align: right;
+    width: 10vw;
+}
+.container img {
+    width: 100%;
+}
+.c2 p {
+    font-size: 80%;
+    font-weight: lighter;
+}
+.c2 strong {
+    font-size: 110%;
+    font-weight: bold;
+}
+table {
+    padding: 0px 10px;
+}
+.total_titulo{
+    text-align: left;
+    width: 90vw;
+}
+.total_valor{
+    text-align: right;
+    width: 10vw;
+}
+.total_titulo p {
+    font-weight: lighter;
+}
