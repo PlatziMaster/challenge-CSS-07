@@ -14,8 +14,7 @@ main {
   align-items: center;
 }
 .main-container {
-  width: 400px;
-  /* height: 50%; */
+  width: 400px;  
   background-color: white;
 }
 .main-bar{
@@ -83,24 +82,48 @@ h4{
   margin-left: 20px;
 }
 
-
-.container{
-  /* display: flex; */
-  /* justify-content: space-between; */
-}
-.container--col2{
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  
-}
-
-.container--col3{
-  /* display: flex; */
-  /* justify-content: flex-end; */
-}
 .linea {
   border-top: 1px solid black;
   height: 2px;
   /* padding: 0; */
   /* margin: 20px auto 0 auto; */
+}
+
+/* .total{  
+  display: flex;
+  justify-content: space-between;
+} */
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container--col2{
+  text-align: left;
+  width: 90vw;
+}
+.container--col3{
+  text-align: right;
+  width: 10vw;
+}
+
+/* table.total{
+  border-collapse:collapse;
+  border: none;
+}
+td.total--col1 {
+    padding: 0;
+} */
+.total{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.total--col1{
+  text-align: left;
+  width: 90vw;
+}
+
+.total--col2{
+  text-align: right;
+  width: 10vw;
 }
