@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge CSS 07</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="shelf">
+      <div class="title_bar">
+        <div class="title_bar__icons">
+          <div class="title_bar__icon title_bar__icon--square"></div>
+          <div class="title_bar__icon title_bar__icon--circle"></div>
+          <div class="title_bar__icon title_bar__icon--triangle"></div>
+        </div>
+      </div>
+      <header id="header">
+        <nav class="nav_bar">
+          <nav class="nav_bar__left">
+            <a href="#" title="hamburger menu">
+              <div class="hamburger_icon"></div>
+            </a>
+            <h2 class="nav_bar__title">Cart</h2>
+          </nav>
+          <nav class="nav_bar__right">
+            <a href="#">
+              <div class="search_icon" title="click to search"></div>
+            </a>
+            <a href="#">
+              <div class="vertical_menu_icon" title="vertical menu"></div>
+            </a>
+          </nav>
+        </nav>
+      </header>
+      <section id="cart">
+        <p>4 Items in your cart</p>
+        <div class="cart__list">
+          <div class="item">
+            <div class="item__info">
+              <img src="./assets/pencil.png" alt="Image item">
+              <div class="item__texts">
+                <p class="item__name">Pencil</p>
+                <p class="item__share">In sotck</p>
+              </div>
+            </div>
+            <span class="item__price">1.50</span>
+          </div>
+        </div>
+        <div class="bill">
+          <div class="total">
+            <span class="total__text">TOTAL</span>
+            <span class="total__value">41.24</span>
+          </div>
+          <div class="description">
+            <div class="description__item">
+              <span class="description__text">Subtotal</span>
+              <span class="description__value">36.00</span>
+            </div>
+            <div class="description__item">
+              <span class="description__text">Shipping</span>
+              <span class="description__value">2.00</span>
+            </div>
+            <div class="description__item">
+              <span class="description__text">Tax</span>
+              <span class="description__value">3.24</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
