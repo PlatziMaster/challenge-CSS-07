@@ -4,7 +4,8 @@
   --purple: #6200ee;
   --dark_purple: #4c00d5;
   --ligth_purple: #9e4bff;
-  --text_secondar: #a0a0a0
+  --text_secondar: #a0a0a0;
+  --bg_shelf: white;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 .shelf {
   width: 360px;
   height: auto;
+  background-color: var(--bg_shelf);
 }
 
 .title_bar {
@@ -173,4 +175,36 @@ body {
 }
 .item__price {
   /* border: 1px solid brown; */
+}
+
+.bill {
+  border: 1px solid brown;
+  padding-top: 1.5em;
+}
+
+.bill .total, .description__item {
+  border: 1px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bill .total .total__text {
+  font-size: 1.1em;
+  color: var(--text_secondar)
+}
+.bill .total .total__value {
+  font-size: 1.5em;
+}
+
+.description {
+  padding-top: 1.5em;
+}
+
+.description__text, .description__value {
+  font-size: .9em;
+} 
+
+.description__value {
+  color: var(--text_secondar);
 }
