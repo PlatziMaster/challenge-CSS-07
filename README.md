@@ -5,7 +5,7 @@ Flexbox: List
 ## 🐇 Resultado
 
 <kbd>
-<!-- <img width="400" src="./assets/result.png" /> -->
+<img width="500" src="./assets/result.png" />
 </kbd>
 
 ## 🐸 ¿En qué consiste?
