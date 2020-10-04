@@ -1,0 +1,139 @@
+.header {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    background-color: #5d54a4;
+}
+
+.sectionShapes {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #9d65c9;
+}
+
+.shapes {
+    width: 20px;
+    height: 20px;
+    padding-right: 7px;
+    margin-top: 7px;
+    border: 0px;
+
+}
+
+.shapes1 {
+    width: 29px;
+    height: 29px;
+    margin-top: 3px;
+    padding-right: 6px;
+    border: 0px;
+}
+
+.sectionMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    padding-left: 10px;
+    width: 45px;
+    height: 60px;
+}
+
+h1 {
+    margin-left: -5px;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    padding-left: 150px;
+
+}
+
+.menuDos {
+    width: 50px;
+    height: 50px;
+    padding-right: 12px;
+}
+
+.contenedorUno {
+    width: 400px;
+    height: 500px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d789d7;
+}
+
+.textContainer {
+    margin-top: 0px;
+    border-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    align-items: center;
+    margin: 10px;
+    text-align: left;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+p {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorDos {
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #d789d7;
+}
+
+h1 {
+    padding-left: 30px;
+
+}
+
+h2 {
+    padding-left: 30px;
+}
