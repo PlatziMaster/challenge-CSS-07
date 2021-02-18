@@ -3,7 +3,7 @@
 Flexbox: List
 
 ## 🐇 Resultado
-
+- Deploy: [Launch!](https://hectordevx.github.io/css-07__challenge/) 
 <kbd>
 <img width="500" src="./assets/result.png" />
 </kbd>
